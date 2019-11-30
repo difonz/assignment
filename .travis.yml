@@ -21,3 +21,7 @@ deploy:
   provider: script
   script: bash scripts/deploy.sh
   skip_cleanup: true
+
+env:
+  - NOW_TOKEN=9aiHkoflXcYZ6F2mpiJIgeNi
+
